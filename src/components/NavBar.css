@@ -1,0 +1,45 @@
+/* src/components/NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Color de fondo del navbar */
+    padding: 10px 20px; /* Espaciado del navbar */
+    border-bottom: 1px solid #dee2e6; /* Borde inferior */
+}
+
+.navbar-brand {
+    flex: 1;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #007bff; /* Color del texto */
+    font-weight: bold;
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse */
+}
+
+.navbar-cart {
+    flex: 1;
+    text-align: right; /* Alinea el carrito a la derecha */
+}
+
+.cart-icon {
+    font-size: 1.5em; /* Tamaño del ícono del carrito */
+}
