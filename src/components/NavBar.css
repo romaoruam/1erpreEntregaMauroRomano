@@ -6,6 +6,11 @@
     background-color: #f8f9fa; /* Color de fondo del navbar */
     padding: 10px 20px; /* Espaciado del navbar */
     border-bottom: 1px solid #dee2e6; /* Borde inferior */
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que el navbar esté sobre otros elementos */
 }
 
 .navbar-brand {

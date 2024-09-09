@@ -1,0 +1,14 @@
+/* src/components/CartWidget.css */
+.cart-widget {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 1.5em; /* Tamaño del ícono del carrito */
+}
+
+.cart-widget span {
+    margin-left: 8px;
+    font-size: 1em; /* Tamaño del número de elementos en el carrito */
+}
